@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "virtuals-acp"
+version = "0.2.6"
+description = "Agent Commerce Protocol Python SDK by Virtuals"
+authors = ["Steven Lee Soon Fatt <steven@virtuals.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+web3 = "^7.4.0"
+aiohttp = "^3.11.14"
+eth-account = "^0.13.6"
+eth-typing = "^5.2.0"
+eth-utils = "^5.2.0"
+requests = "^2.32.3"
+pydantic = "^2.10.6"
+python-socketio = "^5.11.1"
+websocket-client = "^1.7.0"
+jsonschema = "^4.22.0"
+pydantic-settings = "^2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
