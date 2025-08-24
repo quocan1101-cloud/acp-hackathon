@@ -11,7 +11,7 @@ The goal is to demonstrate autonomous **yield-finding services**: a buyer agent 
 ### `buyer.py`
 - **Role:** Serves as buyer agent.
 - **How it works:**
-- 
+  - Connects to ACP network (using env variables)
 - **Usage:** 
   ```bash
   python run_all.py
