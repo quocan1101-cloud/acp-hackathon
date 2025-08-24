@@ -24,7 +24,9 @@ The goal is to demonstrate autonomous **yield-finding services**: a buyer agent 
   3. At TRANSACTION, aggregates yield quotes via broker.py.
   4. Picks the best provider, builds a JSON deliverable, and delivers it to the buyer.
   
- {
+Deliverable format:
+
+{
   "service": "Find Yields",
   "inputs": { "asset": "USDC", "amount": 10000, "duration_days": 30, "risk level": "medium", "notes": "" },
   "quotes": ["ProviderA: 5.20% — Note", "ProviderB: 4.90% — Note"],
