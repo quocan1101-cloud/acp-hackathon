@@ -8,3 +8,9 @@ The goal is to demonstrate autonomous **yield-finding services**: a buyer agent 
 
 ## 📂 Project Structure
 
+### `run_all.py`
+- **Role:** Convenience launcher for both buyer and seller agents.
+- **How it works:** Spawns two subprocesses (`seller.py` then `buyer.py`) and streams their output to the same terminal.
+- **Usage:** 
+  ```bash
+  python run_all.py
