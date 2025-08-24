@@ -4,6 +4,12 @@
 This project implements a **buyer–seller agent system** using the [Virtuals ACP](https://virtuals.io) framework.  
 The goal is to demonstrate autonomous **yield-finding services**: a buyer agent requests the best yield opportunities, and a seller agent fulfills the request by aggregating providers (e.g., Beefy, Yearn).
 
+## 🔄 Workflow
+
+- Buyer selects a service → fills in inputs from schema → submits job.
+- Seller receives job → Accepts → waits for payment → aggregates provider data → delivers best yield result.
+- Buyer pays the price → waits for delivery → evaluates and accepts → job completes on ACP.
+
 ---
 
 ## 📂 Project Structure
