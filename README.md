@@ -40,4 +40,17 @@ The goal is to demonstrate autonomous **yield-finding services**: a buyer agent 
 - **How it works:**
   1. Queries providers (e.g., Beefy, Yearn) and returns tuples
   2. Chooses the optimal provider (e.g., highest APR).
+ 
+### `renderers.py`
+- **Role:** Console/UI helpers for seller output.
+- **How it works:**
+  1. Prints a formatted table of quotes, highlighting the best option.
+
+ ### `services.py`
+- **Role:** Handles deliverables per service.
+- **How it works:**
+  1. Standardizes the JSON deliverable format.
+
+
+  
 
