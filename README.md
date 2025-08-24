@@ -24,7 +24,7 @@ The goal is to demonstrate autonomous **yield-finding services**: a buyer agent 
   3. At TRANSACTION, aggregates yield quotes via broker.py.
   4. Picks the best provider, builds a JSON deliverable, and delivers it to the buyer.
   
-'''
+```
 Deliverable format:
 
 {
@@ -34,7 +34,7 @@ Deliverable format:
   "best": { "provider": "ProviderA", "apr": 0.052, "notes": "Best available" },
   "summary": "Best APR: ProviderA at 5.20%"
 }
-'''
+```
  
 ### `buyer.py`
 - **Role:** Serves as buyer agent.
