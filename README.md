@@ -35,10 +35,9 @@ The goal is to demonstrate autonomous **yield-finding services**: a buyer agent 
 }
 ```
  
-### `buyer.py`
-- **Role:** Serves as buyer agent.
+### `broker.py`
+- **Role:** Browse through external yield providers.
 - **How it works:**
-  1. Connects to ACP network (using env variables).
-  2. Prompts you for a keyword → displays relevant agents.
-  3. Select offerings provided by the agent chosen
-  4. Initiate job
+  1. Queries providers (e.g., Beefy, Yearn) and returns tuples
+  2. Chooses the optimal provider (e.g., highest APR).
+
